@@ -7,7 +7,6 @@ Group:		System/Base
 Url:		http://www.ftp.uni-erlangen.de/~runsuid/
 Source0:	http://www.ftp.uni-erlangen.de/~runsuid/%{name}-%{version}.tgz
 BuildRequires:	glibc-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 runsuid runs a script with another user-id/group-id, when 
