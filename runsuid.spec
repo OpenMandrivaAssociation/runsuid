@@ -1,7 +1,7 @@
 Summary:	Runs scripts with different group/user id
 Name:		runsuid
 Version:	1.5
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Base
 Url:		http://www.ftp.uni-erlangen.de/~runsuid/
