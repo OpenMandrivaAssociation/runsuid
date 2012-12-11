@@ -38,3 +38,35 @@ install -D %{name} %{buildroot}%{_sbindir}/%{name}
 %attr(755,root,root) %{_sbindir}/%{name}
 
 
+
+
+%changelog
+* Sat Apr 16 2011 Tomasz Pawel Gajc <tpg@mandriva.org> 1.5-7mdv2011.0
++ Revision: 653313
+- rebuild
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 1.5-6mdv2010.0
++ Revision: 433598
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tv@mandriva.org> 1.5-5mdv2009.0
++ Revision: 260459
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tv@mandriva.org> 1.5-4mdv2009.0
++ Revision: 251827
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.5-2mdv2008.1
++ Revision: 140755
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Jan 25 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 1.5-2mdv2007.0
++ Revision: 113482
+-fix group
+- Import runsuid
+
