@@ -4,7 +4,7 @@ Version:	1.5
 Release:	8
 License:	GPL
 Group:		System/Base
-Url:		http://www.ftp.uni-erlangen.de/~runsuid/
+Url:		https://www.ftp.uni-erlangen.de/~runsuid/
 Source0:	http://www.ftp.uni-erlangen.de/~runsuid/%{name}-%{version}.tgz
 BuildRequires:	glibc-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
