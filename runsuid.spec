@@ -6,6 +6,7 @@ License:	GPL
 Group:		System/Base
 Url:		https://www.ftp.uni-erlangen.de/~runsuid/
 Source0:	http://www.ftp.uni-erlangen.de/~runsuid/%{name}-%{version}.tgz
+BuildRequires:	make
 BuildRequires:	glibc-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
